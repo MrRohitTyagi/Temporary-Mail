@@ -1,0 +1,51 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(37, 32, 32);
+    padding: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.btn:active{
+    transform: scale(0.9);
+}
+i:hover{
+    transform: scale(1.2);
+
+}
+i:active{
+    transform: scale(0.9);
+
+}
+.mob{
+    display: none;
+}
+
+@media screen and (max-device-width: 600px) {
+
+
+     /* .main{
+        display: none;
+        background: black;
+        
+    } */
+    nav{
+        font-size: x-large;
+    }
+    /* .mob{
+        text-align: center;
+        display: block;
+    }  */
+    .your-email{
+        width: 20rem;
+        font-size: large;
+    }
+
+
+
+}

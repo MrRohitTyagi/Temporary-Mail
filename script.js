@@ -7,7 +7,7 @@ const options = {
     method: 'POST',
     headers: {
         'content-type': 'application/json',
-        'X-RapidAPI-Key': '7b18740137msh4be1b00d17fda6bp1bbccfjsndafb6bd5ced1',
+        'X-RapidAPI-Key': 'YOUR-KEY',
         'X-RapidAPI-Host': 'temp-mail44.p.rapidapi.com'
     },
     body: '{"key1":"value","key2":"value"}'
